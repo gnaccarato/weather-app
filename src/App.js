@@ -48,8 +48,8 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div class="main">
-        <div class="container">               
+      <div className="main">
+        <div className="container">               
         <Titles />               
         <Form getWeather={this.getWeather} />
         <Weather 
